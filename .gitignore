@@ -1,0 +1,94 @@
+# =============================================================
+# FLUTTER / DART
+# =============================================================
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# =============================================================
+# ANDROID
+# =============================================================
+.gradle/
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/key.properties
+/android/*.keystore
+/android/*.jks
+*.keystore
+*.jks
+
+# =============================================================
+# iOS / macOS
+# =============================================================
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/App.framework
+/ios/Runner/Generated.xcconfig
+/ios/Flutter/Generated.xcconfig
+/ios/Runner/Pods/
+/macos/Pods/
+*.xcworkspace
+xcuserdata/
+
+# =============================================================
+# SECRETS & CREDENTIALS — WAJIB TIDAK DI-PUSH
+# =============================================================
+
+# File konfigurasi utama berisi semua API key & credentials
+lib/config/app_config.dart
+
+# Environment files
+.env
+.env.*
+*.env
+*.env.*
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Sertifikat & Key
+*.pem
+*.p12
+*.key
+*.secret
+*.keystore
+*.jks
+serviceAccountKey.json
+service_account*.json
+credentials.json
+
+# =============================================================
+# IDE & EDITOR
+# =============================================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =============================================================
+# LOG & TEMP
+# =============================================================
+*.log
+*.tmp
+*.bak
+.flutter-temp/
+/coverage/
+
+# =============================================================
+# LAINNYA
+# =============================================================
+*.orig
